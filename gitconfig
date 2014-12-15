@@ -1,0 +1,7 @@
+[user]
+	name = Alexander Bandukwala
+	email = 7h3kk1d@gmail.com
+[rerere]
+	enabled = true
+[push]
+	default = simple
