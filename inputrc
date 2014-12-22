@@ -1,0 +1,4 @@
+set keymap vi
+set editing-mode vi
+
+Control-l: clear-screen
