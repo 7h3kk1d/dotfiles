@@ -19,8 +19,10 @@ Plugin 'ervandew/supertab'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'rails.vim'
+" TODO vim-session
 
 "Testing
+Plugin 'AndrewRadev/splitjoin.vim'
 Plugin 'vim-scripts/Gundo'
 Plugin 'tpope/vim-surround'
 
@@ -62,3 +64,6 @@ set hidden
 set sw=4 ts=4 sts=4
 autocmd FileType html :setlocal sw=2 ts=2 sts=2 " Two spaces for HTML files "
 autocmd FileType htmldjango :setlocal sw=2 ts=2 sts=2 " Two spaces for HTML files "
+
+" Enable mouse support
+set mouse=a
