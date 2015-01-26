@@ -25,6 +25,7 @@ Plugin 'rails.vim'
 Plugin 'AndrewRadev/splitjoin.vim'
 Plugin 'vim-scripts/Gundo'
 Plugin 'tpope/vim-surround'
+Plugin 'davidhalter/jedi-vim'
 
 
 " Not used much
