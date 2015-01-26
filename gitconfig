@@ -1,6 +1,8 @@
 [user]
 	name = Alexander Bandukwala
 	email = 7h3kk1d@gmail.com
+[core]
+    excludesfile = ~/.gitignore
 [rerere]
 	enabled = true
 [push]
