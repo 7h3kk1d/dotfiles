@@ -19,6 +19,9 @@ Plugin 'ervandew/supertab'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'rails.vim'
+Plugin 'tpope/vim-endwise'
+Plugin 'mattn/webapi-vim'
+Plugin 'mattn/gist-vim'
 " TODO vim-session
 
 "Testing
@@ -26,6 +29,7 @@ Plugin 'AndrewRadev/splitjoin.vim'
 Plugin 'vim-scripts/Gundo'
 Plugin 'tpope/vim-surround'
 Plugin 'davidhalter/jedi-vim'
+Plugin 'christoomey/vim-tmux-navigator'
 
 
 " Not used much
