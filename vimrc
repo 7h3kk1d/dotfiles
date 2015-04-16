@@ -30,6 +30,8 @@ Plugin 'vim-scripts/Gundo'
 Plugin 'tpope/vim-surround'
 Plugin 'davidhalter/jedi-vim'
 Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'godlygeek/tabular'
+Plugin 'Shougo/unite.vim'
 
 
 " Not used much
@@ -48,6 +50,7 @@ syntax enable
 set t_Co=256
 let g:airline_theme='solarized'
 let g:airline_powerline_fonts = 1
+set cursorline
 
 let mapleader = ","
 
@@ -72,3 +75,6 @@ autocmd FileType htmldjango :setlocal sw=2 ts=2 sts=2 " Two spaces for HTML file
 
 " Enable mouse support
 set mouse=a
+
+" Clipboard copy paste
+set clipboard=unnamed
