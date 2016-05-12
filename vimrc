@@ -17,6 +17,7 @@ Plugin 'tomtom/tcomment_vim'
 Plugin 'majutsushi/tagbar'
 Plugin 'ervandew/supertab'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'vim-instant-markdown'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'rails.vim'
 Plugin 'tpope/vim-endwise'
@@ -26,9 +27,11 @@ Plugin 'Shougo/unite.vim'
 Plugin 'Shougo/vimproc.vim'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'vim-scripts/Gundo'
+Plugin 'tpope/vim-fireplace'
 " TODO vim-session
 
 "Testing
+Plugin 'mattn/emmet-vim'
 Plugin 'AndrewRadev/splitjoin.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'davidhalter/jedi-vim'
@@ -101,3 +104,9 @@ set mouse=a
 
 " Clipboard copy paste
 set clipboard=unnamed
+
+" Shortcut to rapidly toggle `set list`
+nmap <leader>l :set list!<CR>
+
+" Use the same symbols as TextMate for tabstops and EOLs
+set listchars=tab:▸\ ,eol:¬

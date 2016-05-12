@@ -9,3 +9,5 @@
 	default = simple
 [github]
 	user = 7h3kk1d
+[commit]
+    template = ~/.gitmessage
