@@ -28,6 +28,8 @@ Plugin 'Shougo/vimproc.vim'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'vim-scripts/Gundo'
 Plugin 'tpope/vim-fireplace'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
 " TODO vim-session
 
 "Testing
@@ -37,6 +39,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'davidhalter/jedi-vim'
 Plugin 'godlygeek/tabular'
 Plugin 'neilagabriel/vim-geeknote'
+Plugin 'vim-scripts/csv.vim'
 
 
 " Not used much
@@ -98,6 +101,7 @@ set hidden
 set sw=4 ts=4 sts=4
 autocmd FileType html :setlocal sw=2 ts=2 sts=2 " Two spaces for HTML files "
 autocmd FileType htmldjango :setlocal sw=2 ts=2 sts=2 " Two spaces for HTML files "
+autocmd FileType js :setlocal sw=2 ts=2 sts=2 " Two spaces for HTML files "
 
 " Enable mouse support
 set mouse=a
