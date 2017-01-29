@@ -10,6 +10,7 @@ Plugin 'tpope/vim-sensible'
 Plugin 'kien/ctrlp.vim'
 Plugin 'python.vim'
 Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
@@ -22,14 +23,21 @@ Plugin 'rails.vim'
 Plugin 'tpope/vim-endwise'
 Plugin 'mattn/webapi-vim'
 Plugin 'mattn/gist-vim'
+Plugin 'godlygeek/tabular'
 " TODO vim-session
 
 "Testing
+" Plugin 'tpope/vim-leiningen.git'
+" Plugin 'tpope/vim-projectionist.git'
+" Plugin 'tpope/vim-dispatch.git'
+Plugin 'tpope/vim-fireplace.git'
 Plugin 'AndrewRadev/splitjoin.vim'
 Plugin 'vim-scripts/Gundo'
 Plugin 'tpope/vim-surround'
-Plugin 'davidhalter/jedi-vim'
+" Plugin 'davidhalter/jedi-vim'
 Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'vim-scripts/paredit.vim'
+Plugin 'lervag/vimtex'
 
 
 " Not used much
@@ -72,3 +80,15 @@ autocmd FileType htmldjango :setlocal sw=2 ts=2 sts=2 " Two spaces for HTML file
 
 " Enable mouse support
 set mouse=a
+
+" Allow transparent background
+highlight LineNr ctermbg=NONE
+highlight Normal ctermbg=NONE
+
+" Change background of git gutter
+let g:gitgutter_override_sign_column_highlight = 0
+highlight SignColumn ctermbg=NONE
+highlight SignColumn guibg=NONE
+
+" System clipboard
+set clipboard=unnamedplus
