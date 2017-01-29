@@ -4,7 +4,7 @@
 [core]
     excludesfile = ~/.gitignore
 [rerere]
-	enabled = true
+	enabled = false
 [push]
 	default = simple
 [github]
