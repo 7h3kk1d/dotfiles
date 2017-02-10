@@ -40,15 +40,8 @@ Plugin 'neilagabriel/vim-geeknote'
 Plugin 'pangloss/vim-javascript'
 Plugin 'tpope/vim-dispatch.git'
 Plugin 'tpope/vim-fireplace'
-Plugin 'tpope/vim-fireplace.git'
 Plugin 'tpope/vim-leiningen.git'
 Plugin 'tpope/vim-projectionist.git'
-Plugin 'vim-scripts/Gundo'
-" TODO vim-session
-
-"Testing
-Plugin 'mattn/emmet-vim'
-Plugin 'AndrewRadev/splitjoin.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'vim-scripts/Gundo'
 Plugin 'vim-scripts/csv.vim'
