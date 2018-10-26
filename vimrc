@@ -6,6 +6,7 @@ call vundle#begin()
 
 Plugin 'airblade/vim-gitgutter'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'sickill/vim-monokai'
 Plugin 'bling/vim-airline'
 Plugin 'ervandew/supertab'
 Plugin 'gmarik/vundle'
@@ -81,7 +82,7 @@ nnoremap <leader>un :GundoToggle<CR>
 let g:unite_source_history_yank_enable = 1
 call unite#filters#matcher_default#use(['matcher_fuzzy'])
 call unite#filters#sorter_default#use(['sorter_rank'])
-nnoremap <C-p> :<C-u>Unite -no-split -buffer-name=files   -start-insert file_rec/async:!<cr>
+nnoremap <C-p> :<C-u>Unite -no-split -buffer-name=files   -start-insert file_rec:!<cr>
 nnoremap <leader>bu :<C-u>Unite -no-split -start-insert -buffer-name=buffer  buffer<cr>
 nnoremap <leader>y :<C-u>Unite -no-split -buffer-name=yank    history/yank<cr>
 
@@ -105,7 +106,7 @@ set expandtab
 set nu
 set laststatus=2
 set hidden
-set sw=4 ts=4 sts=4
+set sw=2 ts=2 sts=2
 autocmd FileType html :setlocal sw=2 ts=2 sts=2 " Two spaces for HTML files "
 autocmd FileType htmldjango :setlocal sw=2 ts=2 sts=2 " Two spaces for HTML files "
 autocmd FileType js :setlocal sw=2 ts=2 sts=2 " Two spaces for HTML files "
